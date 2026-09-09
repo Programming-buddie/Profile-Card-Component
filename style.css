@@ -1,37 +1,28 @@
 body{
-    background-color: hsl(0, 62%, 46%);
+    background-color: hsl(185, 75%, 39%);
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat; 
+    gap: 2rem;
+}
 
-}
-img[alt="bg-1"]{
-    rotate: 130deg;
-    height: 100%;
-    width: 100%;
-    /* margin-top: -800px; */
-    margin-left: -60px; 
-    zoom: 200%; 
-    top: -10px;
-}
-img[alt="bg-2"]{
-    height: 100%;
-    width: 100%;
-}
 section{
-    margin: 100px 0px 0px 300px;
-    background-color: hsl(0, 0%, 0%);
+    margin: 0rem 0px 0px 0rem;
+    background-color: hsl(0, 0%, 100%);
     border-radius: 30px 30px 30px 30px;
     display: flex;
     flex-direction: column;
-    align-self:flex-start;
-    width: 400px;
-    position: relative;
-    top: -950px;
-    left: -300px;
-margin-top: 50px;}
+    align-self:center;
+    justify-self: center;
+    width: 25rem;
+    /* position: relative; */
+    /* top: -950px;
+    left: -300px; */
+    margin-top: 50px;}
 section img[alt="profile-design"]{
     height: 100%;
     width: 100%;
-    
     border-radius: 30px 30px 0px 0px;
 }
 section img[alt="image of victor"]{
@@ -53,36 +44,36 @@ section .name{
 }
 .name-set h2{
     align-self: center;
-    font-size: 24px;
+    font-size: 1.4rem;
     color: hsl(229, 23%, 23%) ;
-    margin-top: -20px;
+    margin-top: -1.4rem;
 }
 .name-set h2:last-of-type{
     font-weight: 400;
     color: hsl(227, 10%, 46%);
 }
 .name p{
-    margin: -10px 0px 30px -10px;
+    margin: -0.5rem 0px 1.9rem -0.5rem;
     align-self: center;
-    font-size: 21px;
+    font-size: 1.5rem;
     font-weight: 400;
     color: hsl(227, 10%, 46%);
 }
 .name-set{
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 0.9rem;
 }
 
 hr{
-    width: 395px;
+    width: 24.7rem;
 }
 .stats{
     display: flex;
     justify-content: space-around;
     align-self: center;
-    gap: 70px;
-    padding: 0px;
+    gap: 4.375rem;
+    padding: 0rem;
 }
 .stats h2{
     align-self: center;
@@ -92,10 +83,20 @@ hr{
     font-weight: 400;
 }
 .stats p{
-    margin-top: -8px;
-    padding-bottom: 20px;
+    margin-top: -0.5rem;
+    padding-bottom: 1.25rem;
     text-align: center;
     align-self: center;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625rem;
     color: hsl(227, 10%, 46%);
+}
+
+@media (max-width: 600px) {
+    section{
+        width: 22.5rem;
+        /* margin: 5rem auto; */
+    }
+    hr{
+        width: 22.4rem;
+    }
 }
