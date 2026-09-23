@@ -9,19 +9,19 @@ body{
 .top,.bottom{
     position: fixed;
     object-fit:cover;
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
 }
 .top{
-    left: -100px;
-    top: -140px;
+    left: -150px;
+    top: -150px;
     rotate: 65deg;
     border-radius: 50%;
 }
 .bottom{
 
     right: -150px;
-    bottom: -100px
+    bottom: -150px
 }
 section{
     margin: 0rem 0px 0px 0rem;
@@ -35,7 +35,7 @@ section{
     position: relative;
     /* top: -950px;
     left: -300px; */
-    margin-top: 50px;
+    margin: 3rem auto;
     z-index: 1;}
 section img[alt="profile-design"]{
     height: 100%;
@@ -110,14 +110,12 @@ hr{
 
 @media (max-width: 600px) {
     .top{
-    left: -210px;
+    left: -400px;
     top: -300px;
-    rotate: 65deg;
-    border-radius: 50%;
 }
 .bottom{
-    right: -300px;
-    bottom: -130px
+    right: -350px;
+    bottom: -350px
 }
     section{
         width: 21.7rem;
