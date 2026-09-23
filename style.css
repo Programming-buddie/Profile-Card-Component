@@ -9,8 +9,8 @@ body{
 .top,.bottom{
     position: fixed;
     object-fit:cover;
-    width: 600px;
-    height: 600px;
+    width: 800px;
+    height: 800px;
 }
 .top{
     left: -150px;
@@ -109,6 +109,10 @@ hr{
 }
 
 @media (max-width: 600px) {
+    .top,.bottom{
+        width: 600px;
+        height: 600px;
+}
     .top{
     left: -400px;
     top: -300px;
