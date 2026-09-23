@@ -23,7 +23,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./screenshot-desktop.png)
+![](./screenshot-deskto.png)
 ### Links
 
 - Live Site URL: [Profile Card component](https://your-live-site-url.com)
