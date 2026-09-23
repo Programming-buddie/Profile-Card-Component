@@ -26,7 +26,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ![](./screenshot-deskto.png)
 ### Links
 
-- Live Site URL: [Profile Card component](https://your-live-site-url.com)
+- Live Site URL: [Profile Card component](https://programming-buddie.github.io/Profile-Card-Component/)
 
 ## My process
 
